@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="true"
+
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="@dimen/cardview_default_elevation">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/patient"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:clickable="true"
+                android:filterTouchesWhenObscured="true"
+                android:src="@drawable/patient" />
+
+            <TextView
+                android:id="@+id/child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:text="Patient"
+                android:textColor="#1E88E5"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="@dimen/cardview_default_elevation">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/doctor"
+                android:clickable="true"
+                android:filterTouchesWhenObscured="true"
+                android:src="@drawable/doctor"/>
+
+            <TextView
+                android:id="@+id/doctor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:text="Doctor"
+                android:textColor="#1E88E5"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

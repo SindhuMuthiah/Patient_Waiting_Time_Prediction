@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "590600545252",
+    "firebase_url": "https://patient-management-b5bb7.firebaseio.com",
+    "project_id": "patient-management-b5bb7",
+    "storage_bucket": "patient-management-b5bb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590600545252:android:4658fbe4661f18f5f3ddf1",
+        "android_client_info": {
+          "package_name": "com.gmrit.patientmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590600545252-mt5tfisftmpoqrpvadqmm5kg4apnn429.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmrit.patientmanagement",
+            "certificate_hash": "100e32874e02f1f5adf85cea84f6b73410abdaf5"
+          }
+        },
+        {
+          "client_id": "590600545252-ti97thda7svd444494d3b359p5fpekl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qKWJeNVYZ0HQNBIeHZ498KUHRIk4dsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590600545252-ti97thda7svd444494d3b359p5fpekl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590600545252:android:71929df8ad8ed21cf3ddf1",
+        "android_client_info": {
+          "package_name": "com.gmrit.patientmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590600545252-4hfm6pgnvopu9qb5fv5ahomjpss80203.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmrit.patientmanagement",
+            "certificate_hash": "100e32874e02f1f5adf85cea84f6b73410abdaf5"
+          }
+        },
+        {
+          "client_id": "590600545252-ti97thda7svd444494d3b359p5fpekl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qKWJeNVYZ0HQNBIeHZ498KUHRIk4dsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590600545252-ti97thda7svd444494d3b359p5fpekl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

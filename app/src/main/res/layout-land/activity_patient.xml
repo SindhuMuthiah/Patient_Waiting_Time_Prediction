@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PatientActivity"
+    android:background="@drawable/back">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/token"
+        android:layout_marginTop="50dp"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/doctor"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="50dp"
+                android:layout_marginBottom="-25dp"
+                android:src="@drawable/docname"></ImageView>
+            <TextView
+                android:id="@+id/docname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-25dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="serif"
+                android:text="Dr. Y. Srinivas Reddy"
+                android:textColor="#F10E70"
+                android:textSize="18dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1E88E5"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="serif"
+                android:textSize="25dp"
+                android:text="Token Number"
+                android:textStyle="bold"></TextView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="25"
+                android:layout_marginTop="5dp"
+                android:textSize="35dp"
+                android:textColor="#F57C00"
+                android:fontFamily="serif"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#16B619"
+                android:text="You waiting Time "
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="-30dp"
+                android:textStyle="bold"
+                android:fontFamily="serif"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 hour"
+                android:textSize="20dp"
+                android:textColor="#F3393E"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-27dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
