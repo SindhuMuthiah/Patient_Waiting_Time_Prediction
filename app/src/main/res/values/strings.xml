@@ -71,4 +71,5 @@
     <string name="no_events_to_display">No Events to Display</string>
     <string name="welcome_message">Welcome</string>
     <string name="enter_pin">Enter PIN</string>
+    <string name="doctor_degree">Doctor Degree</string>
 </resources>

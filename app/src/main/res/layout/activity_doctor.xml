@@ -71,7 +71,7 @@
                 android:id="@+id/doctordegree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" Doctor Degree"
+                android:text="@string/doctor_degree"
                 android:textStyle="bold"
                 android:textAllCaps="true"
                 android:layout_marginLeft="125dp"

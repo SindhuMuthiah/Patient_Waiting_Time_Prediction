@@ -10,8 +10,7 @@
     android:paddingBottom="@dimen/cardview_default_elevation"
     android:paddingLeft="@dimen/cardview_default_elevation"
     android:paddingRight="@dimen/cardview_default_elevation"
-    android:paddingTop="@dimen/cardview_default_elevation"
-    >
+    android:paddingTop="@dimen/cardview_default_elevation">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -21,6 +20,7 @@
         android:outlineSpotShadowColor="@android:color/black"
         android:id="@+id/card"
         android:layout_margin="10dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"

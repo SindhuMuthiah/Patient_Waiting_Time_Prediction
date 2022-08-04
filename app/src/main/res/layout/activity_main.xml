@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:focusableInTouchMode="true"
-
         android:layout_marginTop="80dp"
         app:cardCornerRadius="15dp"
         app:cardElevation="@dimen/cardview_default_elevation">

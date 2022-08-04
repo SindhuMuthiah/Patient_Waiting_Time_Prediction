@@ -27,17 +27,17 @@
         <activity
             android:name="com.gmrit.patientmanagement.activities.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
+           <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity android:name="com.gmrit.patientmanagement.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
