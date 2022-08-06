@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gmrit.patientmanagement">
+    package="com.kirandroid.patientmanagement">
 
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -13,19 +13,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.gmrit.patientmanagement.activities.DoctorsListActivity"
+        <activity android:name="com.kirandroid.patientmanagement.activities.DoctorsListActivity"
             android:windowSoftInputMode="stateHidden"/>
-        <activity android:name="com.gmrit.patientmanagement.activities.SelectDoctor"
+        <activity android:name="com.kirandroid.patientmanagement.activities.SelectDoctor"
             android:windowSoftInputMode="stateHidden"/>
-        <activity android:name="com.gmrit.patientmanagement.activities.DoctorImageSelectedActivity" />
-        <activity android:name="com.gmrit.patientmanagement.activities.PatientActivity" />
-        <activity android:name="com.gmrit.patientmanagement.activities.DoctorRegistration"
+        <activity android:name="com.kirandroid.patientmanagement.activities.DoctorImageSelectedActivity" />
+        <activity android:name="com.kirandroid.patientmanagement.activities.PatientActivity" />
+        <activity android:name="com.kirandroid.patientmanagement.activities.DoctorRegistration"
             android:windowSoftInputMode="stateHidden"/>
-        <activity android:name="com.gmrit.patientmanagement.activities.PatientRegistration"
+        <activity android:name="com.kirandroid.patientmanagement.activities.PatientRegistration"
             android:windowSoftInputMode="stateHidden"/>
 
         <activity
-            android:name="com.gmrit.patientmanagement.activities.SplashScreenActivity"
+            android:name="com.kirandroid.patientmanagement.activities.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar">
            <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>-->
         </activity>
-        <activity android:name="com.gmrit.patientmanagement.activities.MainActivity">
+        <activity android:name="com.kirandroid.patientmanagement.activities.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

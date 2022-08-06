@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement;
+package com.kirandroid.patientmanagement;
 
 import android.content.Context;
 

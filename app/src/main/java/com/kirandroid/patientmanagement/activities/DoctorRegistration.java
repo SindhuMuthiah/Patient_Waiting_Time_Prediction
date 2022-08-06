@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.activities;
+package com.kirandroid.patientmanagement.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +14,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
-import com.gmrit.patientmanagement.R;
+import com.kirandroid.patientmanagement.R;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class DoctorRegistration extends AppCompatActivity implements AdapterView.OnItemSelectedListener{

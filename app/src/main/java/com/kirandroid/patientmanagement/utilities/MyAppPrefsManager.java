@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.utilities;
+package com.kirandroid.patientmanagement.utilities;
 
 import android.content.Context;
 import android.content.SharedPreferences;

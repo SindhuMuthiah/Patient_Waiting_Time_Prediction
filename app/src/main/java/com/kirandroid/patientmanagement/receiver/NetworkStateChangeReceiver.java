@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.receiver;
+package com.kirandroid.patientmanagement.receiver;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;

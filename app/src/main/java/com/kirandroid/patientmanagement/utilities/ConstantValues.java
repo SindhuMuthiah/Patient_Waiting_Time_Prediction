@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.utilities;
+package com.kirandroid.patientmanagement.utilities;
 
 
 import android.annotation.SuppressLint;
@@ -13,7 +13,7 @@ import androidx.core.app.ShareCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 
-import com.gmrit.patientmanagement.receiver.NetworkStateChangeReceiver;
+import com.kirandroid.patientmanagement.receiver.NetworkStateChangeReceiver;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,7 +22,7 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.gmrit.patientmanagement.receiver.NetworkStateChangeReceiver.IS_NETWORK_AVAILABLE;
+import static com.kirandroid.patientmanagement.receiver.NetworkStateChangeReceiver.IS_NETWORK_AVAILABLE;
 
 
 /**

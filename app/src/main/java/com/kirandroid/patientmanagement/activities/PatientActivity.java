@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.activities;
+package com.kirandroid.patientmanagement.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,9 +13,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.gmrit.patientmanagement.R;
-import com.gmrit.patientmanagement.adapters.MyAdapter;
-import com.gmrit.patientmanagement.modals.DoctorDetails;
+import com.kirandroid.patientmanagement.R;
+import com.kirandroid.patientmanagement.adapters.MyAdapter;
+import com.kirandroid.patientmanagement.modals.DoctorDetails;
 import com.google.firebase.database.DatabaseReference;
 
 import java.util.ArrayList;

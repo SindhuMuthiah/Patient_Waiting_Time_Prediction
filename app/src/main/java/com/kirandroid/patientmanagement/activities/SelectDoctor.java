@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.activities;
+package com.kirandroid.patientmanagement.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.gmrit.patientmanagement.R;
+import com.kirandroid.patientmanagement.R;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.activities;
+package com.kirandroid.patientmanagement.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -22,8 +22,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 
-import com.gmrit.patientmanagement.R;
-import com.gmrit.patientmanagement.utilities.DetectConnection;
+import com.kirandroid.patientmanagement.R;
+import com.kirandroid.patientmanagement.utilities.DetectConnection;
 
 
 import java.util.ArrayList;

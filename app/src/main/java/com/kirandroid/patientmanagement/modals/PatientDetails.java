@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.modals;
+package com.kirandroid.patientmanagement.modals;
 
 public class PatientDetails {
     public String name;

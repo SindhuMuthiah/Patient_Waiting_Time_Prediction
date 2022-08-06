@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:590600545252:android:4658fbe4661f18f5f3ddf1",
         "android_client_info": {
-          "package_name": "com.gmrit.patientmanagement"
+          "package_name": "com.example.patientmanagement"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "590600545252-mt5tfisftmpoqrpvadqmm5kg4apnn429.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.gmrit.patientmanagement",
+            "package_name": "com.example.patientmanagement",
             "certificate_hash": "100e32874e02f1f5adf85cea84f6b73410abdaf5"
           }
         },
@@ -59,6 +59,35 @@
             "certificate_hash": "100e32874e02f1f5adf85cea84f6b73410abdaf5"
           }
         },
+        {
+          "client_id": "590600545252-ti97thda7svd444494d3b359p5fpekl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qKWJeNVYZ0HQNBIeHZ498KUHRIk4dsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590600545252-ti97thda7svd444494d3b359p5fpekl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590600545252:android:5174af6a08f97a41f3ddf1",
+        "android_client_info": {
+          "package_name": "com.kirandroid.patientmanagement"
+        }
+      },
+      "oauth_client": [
         {
           "client_id": "590600545252-ti97thda7svd444494d3b359p5fpekl5.apps.googleusercontent.com",
           "client_type": 3

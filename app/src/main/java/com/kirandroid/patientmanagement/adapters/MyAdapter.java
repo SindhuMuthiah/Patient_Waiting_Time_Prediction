@@ -1,4 +1,4 @@
-package com.gmrit.patientmanagement.adapters;
+package com.kirandroid.patientmanagement.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.gmrit.patientmanagement.activities.PatientActivity;
-import com.gmrit.patientmanagement.R;
-import com.gmrit.patientmanagement.modals.DoctorDetails;
+import com.kirandroid.patientmanagement.activities.PatientActivity;
+import com.kirandroid.patientmanagement.R;
+import com.kirandroid.patientmanagement.modals.DoctorDetails;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
